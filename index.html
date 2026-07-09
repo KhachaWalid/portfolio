@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Walid — Developer portfolio showcasing projects, skills, and craft." />
+  <title>Walid | Developer</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23622cd6'/><text x='16' y='22' text-anchor='middle' font-family='system-ui' font-weight='bold' font-size='18' fill='white'>W</text></svg>" />
+  <link rel="stylesheet" href="/src/styles/tokens.css" />
+  <link rel="stylesheet" href="/src/styles/style.css" />
+</head>
+<body>
+  <div id="cursor-glow"></div>
+
+  <nav class="nav-dots" aria-label="Section navigation">
+    <ol>
+      <li><a href="#hero" aria-label="Hero" class="nav-dot is-active"><span class="nav-dot-label">Home</span></a></li>
+      <li><a href="#about" aria-label="About" class="nav-dot"><span class="nav-dot-label">About</span></a></li>
+      <li><a href="#projects" aria-label="Projects" class="nav-dot"><span class="nav-dot-label">Projects</span></a></li>
+      <li><a href="#skills" aria-label="Skills" class="nav-dot"><span class="nav-dot-label">Skills</span></a></li>
+      <li><a href="#contact" aria-label="Contact" class="nav-dot"><span class="nav-dot-label">Contact</span></a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <!-- ============ Hero ============ -->
+    <section id="hero" class="section hero">
+      <div class="hero-code-ornament" aria-hidden="true">{&nbsp;&nbsp;}</div>
+      <div class="hero-content">
+        <div class="hero-avatar reveal-up">
+          <img src="/public/20260212_175916.jpg" alt="Walid Khacha" class="hero-avatar-img" />
+        </div>
+        <p class="hero-greeting reveal-up">Hi, I'm</p>
+        <h1 class="hero-name reveal-up"><span class="hero-name-first">Walid Khacha</span></h1>
+        <p class="hero-tagline reveal-up">
+          Computer Science student &amp; full-stack developer<br />
+          <span class="hero-tagline-accent">building with purpose, crafting with care</span>
+        </p>
+        <div class="hero-status reveal-up">
+          <span class="hero-status-dot"></span>
+          <span>Open to opportunities</span>
+        </div>
+        <div class="hero-actions reveal-up">
+          <a href="#about" class="btn btn-primary">About Me</a>
+          <a href="#projects" class="btn btn-ghost">View Work</a>
+          <a href="/cv.pdf" class="btn btn-ghost" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            CV
+          </a>
+        </div>
+        <div class="hero-socials reveal-up">
+          <a href="https://github.com/KhachaWalid" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/walid-khacha-411497342/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:walidkhacha123@gmail.com" class="hero-social-link" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="hero-scroll-text">Scroll</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none" class="hero-scroll-mouse">
+          <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-width="2" />
+          <circle cx="8" cy="7" r="2" fill="currentColor" class="hero-scroll-dot" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="section about">
+      <div class="about-layout">
+        <div class="about-image-col reveal-up">
+          <div class="about-image-frame">
+            <img src="/public/20260212_175916.jpg" alt="Walid Khacha" class="about-image" />
+          </div>
+          <div class="about-status reveal-up">
+            <span class="about-status-dot"></span>
+            <span>Open to opportunities</span>
+          </div>
+        </div>
+        <div class="about-content reveal-up">
+          <p class="about-kicker">About Me</p>
+          <h2 class="about-heading">
+            Computer Science student<br />
+            <span class="hero-tagline-accent">from Bordj Bou Arreridj, Algeria</span>
+          </h2>
+          <div class="about-bio">
+            <p>
+              I'm a Computer Science student who believes great software is built
+              at the intersection of solid engineering and real empathy for the
+              people using it. I build full-stack web applications, explore AI
+              systems, and care deeply about the craft behind every
+              feature — from the database query to the last frame of an animation.
+            </p>
+            <p>
+              I've participated in scientific and web development clubs,
+              contributed to educational workshops, and built projects that
+              solve real problems for real people — like 9arini, an AI-powered
+              platform that helps Algerian students study science subjects in
+              Arabic using grounded, exam-relevant answers.
+            </p>
+            <p>
+              Right now I'm deepening my knowledge of modern web technologies,
+              distributed systems, and anything that lets me push the boundary
+              between engineering and craft. When I'm not shipping code, I'm
+              thinking about how to ship it better.
+            </p>
+          </div>
+
+          <div class="about-facts reveal-up">
+            <div class="about-fact">
+              <span class="about-fact-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="about-fact-label">Location</span>
+              <span class="about-fact-value">Bordj Bou Arreridj, Algeria</span>
+            </div>
+            <div class="about-fact">
+              <span class="about-fact-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+              </span>
+              <span class="about-fact-label">Focus</span>
+              <span class="about-fact-value">Full-Stack &amp; AI</span>
+            </div>
+            <div class="about-fact">
+              <span class="about-fact-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+              </span>
+              <span class="about-fact-label">Education</span>
+              <span class="about-fact-value">Computer Science</span>
+            </div>
+            <div class="about-fact">
+              <span class="about-fact-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14"/><path d="M19 8v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8"/><path d="M8 8V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3"/></svg>
+              </span>
+              <span class="about-fact-label">Languages</span>
+              <span class="about-fact-value">Arabic · French · English</span>
+            </div>
+          </div>
+
+          <div class="about-actions reveal-up">
+            <a href="/cv.pdf" class="btn btn-primary" download>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+
+          <div class="about-socials reveal-up">
+            <a href="https://github.com/KhachaWalid" target="_blank" rel="noopener noreferrer" class="about-social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/walid-khacha-411497342/" target="_blank" rel="noopener noreferrer" class="about-social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="mailto:walidkhacha123@gmail.com" class="about-social-link" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+            <a href="https://www.instagram.com/k.wa._.lid/" class="about-social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section id="projects" class="section projects">
+      <div class="section-header reveal-up">
+        <span class="section-kicker">Projects</span>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-subtitle">Each project shaped how I think about code and product</p>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section id="skills" class="section skills">
+      <div class="section-header reveal-up">
+        <span class="section-kicker">Toolkit</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <p class="section-subtitle">The stack I reach for when building</p>
+      </div>
+      <div class="skills-grid" id="skills-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contact" class="section contact">
+      <div class="contact-layout reveal-up">
+        <div class="section-header">
+          <span class="section-kicker">Contact</span>
+          <h2 class="section-title">Let's work together</h2>
+          <p class="section-subtitle">Have a project, an idea, or just want to say hi? I'm always open to interesting conversations.</p>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:walidkhacha123@gmail.com" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">walidkhacha123@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://github.com/KhachaWalid" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">KhachaWalid</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/walid-khacha-411497342/" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">walid-khacha</span>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/k.wa._.lid/" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Instagram</span>
+              <span class="contact-card-value">k.wa._.lid</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Modal -->
+    <dialog class="project-modal" id="project-modal">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close project details" formmethod="dialog">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <div class="modal-body" id="modal-body">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">&copy; <span id="footer-year"></span> Walid Khacha. Built with intent.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
